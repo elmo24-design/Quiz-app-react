@@ -68,7 +68,7 @@ const Question10 = ({ansten,handleChangeTen,checkAnsTen,showModal10}) => {
          {showModal10 && (
             <Modal2 />
          )}
-         <div className="q-wrapper">
+         <div className="q-wrapper q10">
             <motion.div className="q-inner"
             variants={containerVariants}
             initial="hidden"

@@ -53,6 +53,7 @@ header .js-svg {
 .home{
    display: flex;
    flex-direction: column;
+   text-align: center;
    height: 100vh;
    align-items: center;
    margin-top: 1rem;;
@@ -152,4 +153,14 @@ button{
 }
 .wrong{
    background: rgb(189, 3, 3);
+}
+
+@media(max-width: 500px){
+   .home h1{
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+   }
+   header{
+      padding-bottom: 10px;
+   }
 }
